@@ -6,7 +6,7 @@ import KeyPad from './components/KeyPad';
 // Helper to play local audio files for feedback
 const playFeedbackSound = (type: 'correct' | 'incorrect') => {
   try {
-    const fileName = type === 'correct' ? './correct.mp3' : './incorrect.mp3';
+    const fileName = type === 'correct' ? '/correct.mp3' : '/incorrect.mp3';
     const audio = new Audio(fileName);
     audio.play().catch((err) => {
       console.warn('Audio playback prevented or failed:', err);
