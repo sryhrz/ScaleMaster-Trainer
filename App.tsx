@@ -132,7 +132,7 @@ function App() {
       </header>
 
       {/* Main Game Area */}
-      <main className="w-full max-w-md flex-1 flex flex-col items-center gap-6">
+      <main className="w-full max-w-md flex-1 flex flex-col items-center gap-4">
         
         {/* Question Display */}
         <div className={`
@@ -184,7 +184,7 @@ function App() {
         </div>
 
         {/* Keyboard Controls */}
-        <div className="w-full mt-auto mb-6">
+        <div className="w-full mt-2 mb-6">
           <KeyPad
             currentNote={inputNote}
             currentAccidental={inputAccidental}
